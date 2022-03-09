@@ -39,7 +39,7 @@ li a:hover
 	text-align: center;
 	background: blue;
 	color: yellow;
-	font-size: 15pt;
+	font-size: 155%;
 	position: fixed; /* fixes the position of the header bar, so it stays when you scroll down */
 	width: 100%; 
 }
