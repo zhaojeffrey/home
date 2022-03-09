@@ -8,7 +8,7 @@
 	background-color: green;
 	overflow: auto;
 	position: fixed; /* fixes the position of the navigation bar, so it stays when you scroll down */
-	top: 115px; /* keeps the navigation bar right below the header bar */
+	top: 1154px; /* keeps the navigation bar right below the header bar */
 }
 /* formatting of the links */
 .pages
