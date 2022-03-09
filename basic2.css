@@ -1,0 +1,101 @@
+/* navigation bar formatting */
+#navbar
+{
+	list-style-type: none; /* removes the bullet points */
+	padding: 0;
+	height: 100%;
+	width: 10%;
+	background-color: green;
+	overflow: auto;
+	position: fixed; /* fixes the position of the navigation bar, so it stays when you scroll down */
+	top: 13.9%; /* keeps the navigation bar right below the header bar */
+}
+/* formatting of the links */
+.pages
+{
+	font-family: monospace;
+	font-size: 15pt;
+	text-align: center;
+	display: block; /* lets you click on an entire box, not just the text, and lets you add properties like padding  */
+	color: red;
+	text-decoration: none; /* removes the underlines */
+	padding: 3%;
+}
+/* highlights the page you're currently on */
+li a.active
+{
+	background-color: yellow;
+	color:purple;
+}
+/* highlights the link you're hovering over */
+.pages:hover
+{
+	background-color:teal;
+	color:orange;
+}
+.header
+{
+	font-family: monospace;
+	padding: 0.65%;
+	text-align: center;
+	background: blue;
+	color: yellow;
+	font-size: 15pt;
+	position: fixed; /* fixes the position of the header bar, so it stays when you scroll down */
+	width: 100%;
+	top: 0%; /* makes the header bar stay at the top */
+}
+body
+{
+	margin:0;
+}
+#title
+{
+	margin-top: 10%;
+	margin-left: 27.5%;
+	font-size: 40pt;
+	font-family: verdana, sans-serif;
+}
+img
+{
+	padding-left: 47%;
+	padding-top: 3%;
+}
+h3
+{
+	margin-left: 22.5%;
+	font-size: 30pt;
+	margin-bottom: 1%;
+	font-family: verdana, sans-serif;
+}
+p
+{
+	text-align: justify;
+	margin-right: 1%;
+	margin-left: 11%;
+	font-family: sans-serif;
+}
+#contents
+{
+	text-align: left;
+	font-size: 20pt;
+	margin-left: 37.5%;
+	margin-top: 1%;
+}
+#resurgence
+{
+	margin-left: 45%;
+}
+#present
+{
+	margin-left: 35%
+}
+#caption
+{
+	margin-left: 46%;
+}
+/* lets me italicize individual phrases */
+span
+{
+	font-style: italic; 
+}

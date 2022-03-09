@@ -1,0 +1,69 @@
+/* navigation bar formatting */
+ul
+{
+	list-style-type: none; /* removes the bullet points */
+	padding: 0;
+	height: 100%;
+	width: 10%;
+	background-color: green;
+	position: fixed; /* fixes the position of the navigation bar, so it stays when you scroll down */
+	top: 13.9%; /* keeps the navigation bar right below the header bar */
+}
+/* formatting of the links */
+li a
+{
+	font-family: monospace;
+	font-size: 15pt;
+	text-align: center;
+	display: block; /* lets you click on an entire box, not just the text, and lets you add properties like padding  */
+	color: red;
+	text-decoration: none; /* removes the underlines */
+	padding: 3%; 
+}
+/* highlights the page you're currently on */
+li a.active
+{
+	background-color: yellow;
+	color: purple;
+}
+/* highlights the link you're hovering over */
+li a:hover
+{
+	background-color: teal;
+	color: orange;
+}
+.header
+{
+	font-family: monospace;
+	padding: 0.65%;
+	text-align: center;
+	background: blue;
+	color: yellow;
+	font-size: 15pt;
+	position: fixed; /* fixes the position of the header bar, so it stays when you scroll down */
+	width: 100%; 
+}
+body
+{
+	margin: 0;
+}
+img
+{
+	padding-left: 40%;
+	padding-top: 10%;
+}
+h2
+{
+	text-align: center;
+	font-size: 30pt;
+	margin-bottom: 1%;
+	font-family: verdana, sans-serif;
+	margin-left: 10%;
+}
+p
+{
+	text-align: justify;
+	margin-right: 1%;
+	margin-left: 11%;
+	font-family: sans-serif;
+}
