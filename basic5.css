@@ -64,3 +64,8 @@ h2
 	margin-left: 20%;
 	font-size: 20pt;
 }
+.flexcontainer /* The Flexbox lets me position the images side by side */
+{
+	margin-left: 40%;
+	display: flex;
+}
