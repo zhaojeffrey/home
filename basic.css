@@ -67,3 +67,7 @@ p
 	margin-left: 11%;
 	font-family: sans-serif;
 }
+.flexcontainer
+{
+	display: flex;
+}
