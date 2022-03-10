@@ -7,7 +7,7 @@ ul
 	width: 10%;
 	background-color: green;
 	position: fixed; /* fixes the position of the navigation bar, so it stays when you scroll down */
-	top: 115px; /* keeps the navigation bar right below the header bar */
+	top: 114px; /* keeps the navigation bar right below the header bar */
 }
 /* formatting of the links */
 li a
