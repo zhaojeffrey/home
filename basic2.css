@@ -99,3 +99,8 @@ span
 {
 	font-style: italic; 
 }
+.flexcontainer /* The Flexbox lets me position the images side by side */
+{
+	margin-left: 40%;
+	display: flex;
+}
